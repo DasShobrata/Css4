@@ -1,0 +1,61 @@
+/*
+
+
+Container
+ 1.display
+ 2.flex-direction
+ 3.flex-wrap
+ 3+4 flex-flow
+ 5.align-items
+ 6.align-contents
+ 7.justify contents
+
+ item
+ 1. flex-grow
+ 2. flex-shirnk
+ 3. flex-basis
+ * flex
+ 4. align-self
+
+
+*/
+
+
+.container{
+    background-color: azure;
+    height: 60vh;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
+.child-1{
+    min-height: 100px;
+    width: 200px;
+    background-color: brown;
+}
+.child-2{
+    min-height: 150px;
+    width: 200px;
+    background-color: rebeccapurple;
+}
+.child-3{
+    min-height: 200px;
+    width: 200px;
+    background-color: rgb(42, 75, 165);
+}
+.child-4{
+    min-height: 250px;
+    width: 200px;
+    background-color: rgb(153, 26, 125);
+
+}
+.child-5{
+    min-height: 300px;
+    width: 200px;
+    background-color: rgb(5, 94, 67);
+}
+.child-6{
+    min-height: 350px;
+    width: 200px;
+    background-color: rgb(194, 170, 33);
+}
